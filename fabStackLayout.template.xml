@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeTemplates version="3.0">
+  <CodeTemplate version="2.0">
+    <Header>
+      <_Group>F#</_Group>
+      <Version />
+      <MimeType>text/x-fsharp</MimeType>
+      <Shortcut>fabStackLayout</Shortcut>
+      <_Description />
+      <TemplateType>Unknown</TemplateType>
+    </Header>
+    <Variables />
+    <Code><![CDATA[View.StackLayout(padding = 20.0,
+    children = [ 
+        $end$
+    ]))]]></Code>
+  </CodeTemplate>
+</CodeTemplates>

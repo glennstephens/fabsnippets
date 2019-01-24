@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeTemplates version="3.0">
+  <CodeTemplate version="2.0">
+    <Header>
+      <_Group>F#</_Group>
+      <Version />
+      <MimeType>text/x-fsharp</MimeType>
+      <Shortcut>fabEntry</Shortcut>
+      <_Description />
+      <TemplateType>Unknown</TemplateType>
+    </Header>
+    <Variables />
+    <Code><![CDATA[View.Entry(text="$end$", horizontalOptions=LayoutOptions.CenterAndExpand, 
+                             textChanged=debounce 250 (fun args -> dispatch (TextChanged(args.OldTextValue, args.NewTextValue))), 
+                             completed=(fun text -> dispatch (EntryEditCompleted text)))]]></Code>
+  </CodeTemplate>
+</CodeTemplates>
