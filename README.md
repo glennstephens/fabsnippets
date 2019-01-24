@@ -10,13 +10,18 @@ Once installed, the snippets will start with *fab* and you'll be able to add som
 
 The snippets I've added are:
 
-* fabLabel: Creates a label
-* fabLabelCentered: Creates a label with centered text
-* fabLabelRight: You guessed it, label with right justification
-* fabButton: Creates a button
-* etc...
+* fabLabel: Creates a Xamarin.Forms.Label
+* fabLabelCentered: Creates a Xamarin.Forms.Label with centered text
+* fabLabelRight: You guessed it, Xamarin.Forms.Lbel with right justification
+* fabButton: Creates a Xamarin.Forms.Button
+* fabActivityIndicator: Creates an Xamarin.Forms.ActivityIndicator
+* fabBoxView: Creates a Xamarin.Forms.BoxView
+* fabEntry: Creates an Xamarin.Forms.Entry
+* fabSlider: Creates a Xamarin.Forms.Slider
+* fabStackLayout: Creates a Xamarin.Forms.StackLayout
+* fabStackLayoutHorizontal: Creates a Xamarin.Forms.StackLayout with a Horizontal orientation
 
-Once you type *fab* you should see the available options that are there. 
+These are the first snippets at the moment. I'll add and update over time
 
 Enjoy. If you have questions, you can DM on twitter via @glenntstephens
 
